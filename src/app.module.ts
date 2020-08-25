@@ -15,7 +15,7 @@ const environment = process.env.NODE_ENV || 'development';
     }),
 
     MongooseModule.forRoot(
-      process.env.MONGODB_WRITE_CONNECTION_STRNG,
+      process.env.MONGODB_WRITE_CONNECTION_STRING,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
